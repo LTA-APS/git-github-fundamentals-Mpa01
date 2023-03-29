@@ -1,0 +1,58 @@
+Titolo: Inserisci Contatto
+Descrizione: L'utente inserisce un nuovo contatto nella rubrica.
+
+Attori: Utente
+
+Precondizioni:
+
+L'applicazione è aperta e funzionante.
+L'utente ha accesso alla sezione "Rubrica".
+Flusso principale degli eventi:
+
+L'utente seleziona l'opzione "Aggiungi Contatto".
+L'applicazione mostra un modulo per inserire i dettagli del contatto (nome, cognome, numero di telefono, email, indirizzo, ecc.).
+L'utente inserisce i dettagli richiesti.
+L'utente conferma l'inserimento del contatto.
+L'applicazione verifica la correttezza e la completezza delle informazioni inserite.
+L'applicazione salva il contatto nella rubrica.
+L'applicazione mostra un messaggio di conferma.
+Flusso alternativo 1 (dati mancanti o errati):
+
+L'applicazione rileva che i dati inseriti sono incompleti o errati.
+L'applicazione mostra un messaggio di errore e richiede all'utente di correggere i dati.
+L'utente corregge i dati e ripete il flusso principale degli eventi dal punto 4.
+Flusso alternativo 2 (contatto già presente):
+
+L'applicazione rileva che il contatto inserito è già presente nella rubrica.
+L'applicazione mostra un messaggio di errore e chiede all'utente se desidera aggiornare il contatto esistente o annullare l'operazione.
+L'utente sceglie l'opzione desiderata.
+Postcondizioni:
+
+Il contatto è stato inserito correttamente nella rubrica.
+Caso d'uso: Rimuovi Contatto
+Titolo: Rimuovi Contatto
+Descrizione: L'utente rimuove un contatto esistente dalla rubrica.
+
+Attori: Utente
+
+Precondizioni:
+
+L'applicazione è aperta e funzionante.
+L'utente ha accesso alla sezione "Rubrica".
+La rubrica contiene almeno un contatto.
+Flusso principale degli eventi:
+
+L'utente seleziona il contatto da rimuovere.
+L'utente seleziona l'opzione "Elimina Contatto".
+L'applicazione mostra un messaggio di conferma per l'eliminazione del contatto.
+L'utente conferma l'eliminazione del contatto.
+L'applicazione rimuove il contatto dalla rubrica.
+L'applicazione mostra un messaggio di conferma.
+Flusso alternativo 1 (annullamento dell'operazione):
+
+L'utente decide di non eliminare il contatto.
+L'utente annulla l'operazione di eliminazione del contatto.
+L'applicazione non rimuove il contatto e ritorna alla rubrica.
+Postcondizioni:
+
+Il contatto è stato rimosso correttamente dalla rubrica.
